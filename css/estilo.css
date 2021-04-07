@@ -22,3 +22,12 @@ body {
 body > img {
   margin: 0 10px;
 }
+.nomes ul , li{
+  text-decoration: none;
+  color: red;
+  display: flex;
+  margin-left: 700px;
+  margin: 0px 100px;
+ list-style: none;
+ font-size: 20px;
+}

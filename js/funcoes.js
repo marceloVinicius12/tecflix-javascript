@@ -1,8 +1,8 @@
 //array = caixa onde se guarda as informações separadas
-let series = ["prison break" , "breaking bad" , "stranger things"];
-console.log(series);
-console.log(series.length);
+let series = ["prison-break.jpg" , "breaking-bad.jpg" , "stranger-things.jpg"];
 
-for(let i = 0; 1 < series.length; i++){
-    console.log(series[i]);
+for(let i = 0; i < series.length; i++){
+document.write("<img src=img/" + series[i] + ">");
+
 }
+
